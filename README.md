@@ -1,5 +1,5 @@
-# Next.js + TypeScript + Mantine + Tailwind CSS + ESLint + Prettier
+# Next.js + TypeScript + Mantine + Tailwind CSS
 
 ```bash
-yarn create next-app --example https://github.com/lightsound/Next.js-Mantine-TailwindCSS
+yarn create next-app --example https://github.com/next-mantine-tailwind
 ```
