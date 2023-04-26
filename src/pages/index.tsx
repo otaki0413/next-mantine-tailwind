@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
-import { Button, useMediaQuery, useViewportSize } from "src/lib/mantine";
+import { useMediaQuery, useViewportSize } from "src/lib/mantine";
+import { Button } from "@mantine/core";
 
 const Home: NextPage = () => {
   const { width } = useViewportSize();
@@ -23,9 +24,6 @@ const Home: NextPage = () => {
         <div>{`largerThanLg: ${largerThanLg}`}</div>
         <div>{`largerThanXl: ${largerThanXl}`}</div>
       </div>
-      <Button dent onClick={handleClick} className="mt-4 block">
-        Click me!
-      </Button>
       <Button onClick={handleClick} className="mt-4 block">
         Click me!
       </Button>
