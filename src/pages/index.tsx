@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <div>{`largerThanLg: ${largerThanLg}`}</div>
         <div>{`largerThanXl: ${largerThanXl}`}</div>
       </div>
-      <Button onClick={handleClick} className="mt-4 block">
+      <Button onClick={handleClick} className="mt-4 block bg-m_dark-9">
         Click me!
       </Button>
     </div>

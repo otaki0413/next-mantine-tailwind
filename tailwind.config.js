@@ -1,4 +1,4 @@
-/* https://mantine.dev/theming/extend-theme/ */
+/* https://mantine.dev/theming/colors/ */
 const mantineColors = {
   m_dark: {
     0: "#C1C2C5",
@@ -175,7 +175,7 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   important: "#__next",
   theme: {
-    /* Mantineと一致させる: https://mantine.dev/theming/responsive */
+    /* Mantineと一致させる: https://mantine.dev/styles/responsive/ */
     screens: {
       xs: "576px",
       sm: "768px",
